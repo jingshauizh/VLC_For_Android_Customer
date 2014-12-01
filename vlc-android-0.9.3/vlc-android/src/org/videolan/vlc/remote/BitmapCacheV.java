@@ -12,6 +12,7 @@ public class BitmapCacheV implements ImageCache {
 	private LruCache<String, Bitmap> mCache;
 	
 	public BitmapCacheV() {
+		/*
 		int maxSize = 10 * 1024 * 1024;
 		mCache = new LruCache<String, Bitmap>(maxSize) {
 			@Override
@@ -20,16 +21,19 @@ public class BitmapCacheV implements ImageCache {
 			}
 			
 		};
+		*/
+		
 	}
 
 	@Override
 	public Bitmap getBitmap(String url) {
-		return mCache.get(url);
+		//return mCache.get(url);
+		return null;
 	}
 
 	@Override
 	public void putBitmap(String url, Bitmap bitmap) {
-		mCache.put(url, bitmap);
+		//mCache.put(url, bitmap);
 	}
 
 }

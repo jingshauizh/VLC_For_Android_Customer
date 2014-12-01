@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: C:\\3Code\\IOD0731\\InfoOnDemand\\Virtul_STB\\VLC\\vlc-android-0.9.3\\vlc-android\\src\\org\\videolan\\vlc\\interfaces\\IAudioService.aidl
+ * Original file: C:\\3Code\\github\\VLC_For_Android_Customer\\vlc-android-0.9.3\\vlc-android\\src\\org\\videolan\\vlc\\interfaces\\IAudioService.aidl
  */
 package org.videolan.vlc.interfaces;
 public interface IAudioService extends android.os.IInterface
